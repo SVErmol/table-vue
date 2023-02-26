@@ -1,7 +1,6 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <HelloWorld/>
   </div>
 </template>
 
@@ -24,5 +23,30 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+}
+.selects {
+    background: rgb(151, 251, 151) !important;
+}
+
+td {
+    width: min-content;
+}
+
+td,
+th {
+    text-align: center !important;
+    border: 1px solid black !important;
+    ;
+}
+
+th {
+    color: black !important;
+    ;
+    background: #ace2c8 !important;
+    ;
+}
+
+.active {
+    border: 5px solid green
 }
 </style>
